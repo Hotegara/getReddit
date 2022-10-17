@@ -6,8 +6,8 @@ from os import environ
 from classes import RedditObject, Post
 
 reddit = praw.Reddit(
-    client_id=environ['CLIENT_ID'],
-    client_secret=environ['CLIENT_SECRET'],
+    client_id="MuxzylYQ827VuUND63sVyg",
+    client_secret="upgU7TzsBOl4FXM9g_R6KFBXmfRS0g",
     user_agent=f'requests for my Youtube maker script (u/pto2)'
 )
 
